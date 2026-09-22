@@ -1,0 +1,15 @@
+FERNANDANENEAPP — projeto Android nativo
+
+1. Criar um repositório privado no GitHub.
+2. Carregar o conteúdo desta pasta para a raiz do repositório (incluindo .github/workflows/android.yml).
+3. Abrir Actions > Gerar APK Android > Run workflow.
+4. No fim da execução, descarregar o artifact fernandaneneapp-debug-apk.
+5. Extrair app-debug.apk e enviar à filha pelo WhatsApp. Android poderá pedir autorização para instalar aplicações desta origem.
+
+NOTAS IMPORTANTES:
+- O APK gerado é uma versão de TESTE, assinada com chave debug do GitHub runner. Não é uma versão final de produção. Atualizações poderão exigir desinstalação e perda de dados se a assinatura mudar.
+- As tarefas são guardadas apenas no dispositivo, sem sincronização entre telemóveis.
+- Os lembretes usam alarmes inexatos: podem atrasar devido à bateria ou às políticas do Android. É necessário autorizar notificações.
+- O botão WhatsApp abre a partilha com texto preparado; NÃO envia mensagens automaticamente.
+- O ícone incluído é temporário; o logótipo da menina ainda não está integrado no APK.
+- Não foi possível compilar/testar o APK neste ambiente.
